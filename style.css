@@ -1,0 +1,145 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #fff5f5;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #e23744;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcccc;
+}
+
+/* Search Section */
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('images/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center center/cover;
+}
+
+.search-container {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.search-container h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 60%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+/* Food Delivery Info Section */
+.info {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.info .container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.info h2 {
+  font-size: 2rem;
+  color: #e23744;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  background: #ffe6e6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.feature img {
+  height: "60%";
+  width: "100%";
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  color: #e23744;
+  font-size: 1.5rem;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #e23744;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
