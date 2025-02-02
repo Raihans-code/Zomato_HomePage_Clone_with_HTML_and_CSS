@@ -14,7 +14,7 @@ body {
 
 /* Header */
 header {
-  background-color: #e23744;
+  background:url('assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center top/cover;
   color: white;
   display: flex;
   justify-content: space-between;
