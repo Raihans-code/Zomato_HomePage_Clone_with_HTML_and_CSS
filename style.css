@@ -14,7 +14,6 @@ body {
 
 /* Header */
 header {
-  background:url('assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center top/cover;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -24,9 +23,11 @@ header {
 
 .logo img {
   height: 50px;
+  display: inline;
 }
 
 nav ul {
+
   list-style: none;
   display: flex;
   gap: 20px;
@@ -46,7 +47,9 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffcccc;
 }
-
+.hb{
+  background: url('assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center center/cover;
+}
 /* Search Section */
 .hero {
   height: 80vh;
@@ -54,13 +57,13 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url('assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center center/cover;
 }
 
 .search-container {
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
+  display: block;
 }
 
 .search-container h1 {
